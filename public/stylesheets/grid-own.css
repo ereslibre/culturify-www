@@ -6,6 +6,7 @@ html, body {
 
 body {
   font-family: Ubuntu, "DejaVu Sans", sans-serif;
+  background: #fff url(/images/bodypattern.png) repeat;
 }
 
 a {
@@ -15,7 +16,6 @@ a {
 #wrapper {
   min-height: 100%;
   position: relative;
-  background: #fff url(/images/bodypattern.png) repeat;
 }
 
 #contents-container {
@@ -31,7 +31,7 @@ a {
 
 #infoblock h2 {
   display: block;
-  background: #000 url(/images/pattern.png) repeat;
+  background: #444 url(/images/pattern.png) repeat;
   padding: 10px;
   margin-bottom: 10px;
   color: #fff;
@@ -75,11 +75,12 @@ a {
 
 #container {
   display: block;
-  background: #000 url(/images/pattern.png) repeat;
+  background: rgba(0,0,0,0.7);
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 10px;
+  background: #000 url(/images/pattern.png) repeat;
 }
 
 #footer {
@@ -88,7 +89,7 @@ a {
   color: #fff;
   font-size: small;
   text-shadow: 1px 1px 0 #000;
-  background: #000 url(/images/pattern.png) repeat;
+  background: rgba(0,0,0,0.7);
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
