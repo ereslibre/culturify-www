@@ -194,7 +194,7 @@ h2 {
 
 #project input[type="text"] {
   font-family: Ubuntu, "DejaVu Sans", sans-serif;
-  color: #ccc;
+  color: #fff;
   display: inline-block;
   font-size: 2em;
   padding: 4px;
@@ -211,12 +211,12 @@ h2 {
 
 #project input[type="submit"] {
   font-family: Ubuntu, "DejaVu Sans", sans-serif;
-  color: #ccc;
+  color: #fff;
   display: inline-block;
   font-size: 2em;
   padding: 4px;
   margin-left: 15px;
-  width: 155px;
+  width: 145px;
   border: solid 1px #fff;
   background: rgba(0,0,0,0.1) url(/images/overlay.png) repeat-x;
   margin-bottom: 10px;
@@ -233,4 +233,32 @@ h2 {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 10px;
+}
+
+#flash-notice {
+  display: block;
+  background: rgba(0,104,0, 0.6)  url(/images/overlay.png) repeat-x;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+#flash-alert {
+  display: block;
+  background: rgba(104,0,0, 0.6) url(/images/overlay.png) repeat-x;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
 }
