@@ -4,8 +4,8 @@
     <div id="projectwebsite">If you want to receive a mail when we are ready to launch the
                             platform don't hesitate to enter your email address and hit
                             'Go!'.</div>
-    <%= f.text_field :email, :value => 'user@server.com', :onFocus => 'clearDefault(this)',
-                             :onBlur => 'restoreDefault(this)' %>
+    <%= f.email_field :email, :value => 'user@server.com', :onFocus => 'clearDefault(this)',
+                              :onBlur => 'restoreDefault(this)' %>
     <%= f.submit 'Go!' %>
     <div id="disclaimer">We will only write you once, when the platform version 1.0 is available. After
                          that, we will purge the email database. We are not selling/sharing/providing your

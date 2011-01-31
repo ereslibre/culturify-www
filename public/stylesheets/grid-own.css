@@ -192,7 +192,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-#project input[type="text"] {
+#project input[type="email"] {
   font-family: Ubuntu, "DejaVu Sans", sans-serif;
   color: #fff;
   display: inline-block;
