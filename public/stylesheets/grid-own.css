@@ -73,7 +73,7 @@ a {
 
 #infoblock h2 {
   display: block;
-  background: #444 url(/images/pattern.png) repeat;
+  background: #444 url(/images/pattern.png) repeat-x 235px 0;
   padding: 10px;
   margin-bottom: 10px;
   color: #fff;
