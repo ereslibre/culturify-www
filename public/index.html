@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/reset.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/grid.css"/>
     <link rel="stylesheet" type="text/css" media="all" href="/stylesheets/grid-own.css"/>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
   </head>
   <body>
     <div id="wrapper">
@@ -26,6 +27,24 @@
               <li><a href="/architecture.html">Architecture</a></li>
               <li class="current"><a href="/">Home</a></li>
             </ul>
+          </div>
+          <div class="clear">&nbsp;</div>
+          <div class="grid_12">
+            <form method="POST" action="/signup_news">
+              <div id="project">
+                <div id="projectname"><a href="/projects/1">Stay Tuned !</a></div>
+                <div id="projectwebsite">If you want to receive a mail when we are ready to launch the
+                                        platform don't hesitate to add your email address and hit
+                                        'Go!'.</div>
+                <input type="text" name="email" value="user@server.com" onFocus="clearDefault(this)" onBlur="restoreDefault(this)"/>
+                <input type="submit" value="Go!"/>
+                <div id="disclaimer">Culturify will use your email address only for notifying you
+                                     when the version 1.0 of the platform is available. We will
+                                     destroy the email database when this happens, so your email
+                                     will live in our database only temporarily. In the meantime, we
+                                     are not going to sell, share, or whatever with your email address.</div>
+              </form>
+            </div>
           </div>
           <div class="clear">&nbsp;</div>
           <div class="grid_6">
