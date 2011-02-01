@@ -5,3 +5,7 @@ function clearDefault(el) {
 function restoreDefault(el) {
   if (el.value == "") el.value = el.defaultValue
 }
+
+$(function() {
+  $("form").validator();
+});
