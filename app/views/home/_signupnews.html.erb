@@ -1,14 +1,16 @@
 <%= form_for(@signup_news, :url => { :controller => :signup_news, :action => :create }) do |f| %>
   <div id="project">
-    <div id="projectname">Stay Tuned !</div>
-    <div id="projectwebsite">If you want to receive a mail when we are ready to launch the
-                            platform don't hesitate to enter your email address and hit
-                            'Go!'.</div>
-    <%= f.email_field :email, :value => 'user@server.com', :onFocus => 'clearDefault(this)',
-                              :onBlur => 'restoreDefault(this)' %>
-    <%= f.submit 'Go!' %>
-    <div id="disclaimer">We will only write you once, when the platform version 1.0 is available. After
-                         that, we will purge the email database. We are not selling/sharing/providing your
-                         email to anybody.</div>
+    <div id="project2">
+      <div id="projectname">Stay Tuned !</div>
+      <div id="projectwebsite">If you want to receive a mail when we are ready to launch the
+                              platform don't hesitate to enter your email address and hit
+                              'Go!'.</div>
+      <%= f.email_field :email, :value => 'user@server.com', :onFocus => 'clearDefault(this)',
+                                :onBlur => 'restoreDefault(this)' %>
+      <%= f.submit 'Go!' %>
+      <div id="disclaimer">We will only write you once, when the platform version 1.0 is available. After
+                          that, we will purge the email database. We are not selling/sharing/providing your
+                          email to anybody.</div>
+    </div>
   </div>
 <% end %>
